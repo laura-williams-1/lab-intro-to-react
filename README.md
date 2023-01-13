@@ -22,6 +22,8 @@ Edit multiple JavaScript files in this lab as you get the hang of creating and u
 
 ### Tests
 
+> **Note**: Do not agree to any updates or changes to configurations when booting up Cypress. Cypress is already configured for you. If you agree to updates, you will need to make additional changes to the testing files, rather than being able to work on your lab.
+
 To run the tests, you can run the following command from the command line. You will need to be in the root directory of your local directory.
 
 ```
@@ -44,6 +46,14 @@ Keep the following in mind for this lab as you run the tests.
 
 ## Instructions
 
+You will be building a static React Application that will show some blog posts and user information. It should look similar to the image below. Note: this view has been lightly styled to help provide clarity between components, you do not need to style this app the same way.
+
+![ProfilePage](./ProfilePage.png)
+
+Rather than building on large HTML file, you will break up this view into multiple React components. You will create each component in its own file, export it, then import it into `App.js`, then you will structure the components to match the hierarchy listed below.
+
+You are given a number of blank files inside of `src/Components`, which will help guide you in figuring out what components you will need, along with the unit tests.
+
 Connect all of the components inside of the `Components/` directory so that each component shows up on the page.
 
 Your application should have the following component structure:
@@ -54,6 +64,6 @@ The component tree above can also be shown as a list:
 
 ![components list](./components.png)
 
-If you have time, build out the page to be more detailed, like the following mockup image.
+If you have time, build out the page to be more detailed and styled, like the following mockup image.
 
 ![ProfilePage](./ProfilePage.png)
